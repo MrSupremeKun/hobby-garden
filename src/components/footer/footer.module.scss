@@ -1,0 +1,57 @@
+.footer {
+    padding: 30px 50px 80px;
+    background: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &__link {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 30px;
+        margin-bottom: 50px;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &__info {
+        align-self: flex-start;
+        margin-bottom: 80px;
+    }
+
+    &__text {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #A5A5A5;
+        margin-bottom: 20px;
+    }
+
+    &__brand {
+        text-align: center;
+    }
+
+    &__brand_title {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 39px;
+        font-weight: 900;
+        color: #A5A5A5;
+        letter-spacing: 5px;
+    }
+
+    &__brand_text {
+        font-size: 16px;
+        font-weight: 300;
+        color: #A5A5A5;
+    }
+
+}

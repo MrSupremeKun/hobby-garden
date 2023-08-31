@@ -1,0 +1,28 @@
+.swiper {
+    padding: 0 100px !important;
+}
+.swiper-wrapper{
+    height: 460px;
+}
+.swiper-slide{
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.3s;
+    &:hover{
+        box-shadow: 0px 0px 15px #149A03;
+    }
+}
+.swiper-button-next,
+.swiper-button-prev{
+    opacity: 1 !important;
+    color: #fff !important;
+
+    &.swiper-button-disabled{
+        display: none;
+    }
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-weight: 700;
+    font-size: 30px;
+}
